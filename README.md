@@ -7,5 +7,10 @@ _screenshot placeholder_
 ## Learning Subjects
 
 * [ ] TypeScript
-* [ ] Page layout and CSS
+  * Understand TypeScript compling process.
+  * Familiarize TypeScript typing system.
+* [ ] Page layout and CSS module
+  * Familiarize modern React page layout method.
+  * Styling components with CSS modules.
 * [ ] Animation
+  * Understand how animation works in React app.
