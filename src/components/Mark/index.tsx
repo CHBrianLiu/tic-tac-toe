@@ -18,7 +18,7 @@ const MARK_METADATA = {
   },
 };
 
-function Mark({ symbol, size, onClick }: MarkProps) {
+export default function Mark({ symbol, size, onClick }: MarkProps) {
   const disabled = Boolean(symbol);
   return (
     <button
@@ -35,5 +35,3 @@ function Mark({ symbol, size, onClick }: MarkProps) {
     </button>
   );
 }
-
-export default Mark;
