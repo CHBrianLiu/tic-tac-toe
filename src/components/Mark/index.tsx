@@ -1,7 +1,11 @@
 import React from "react";
 import Styles from "./Mark.module.css";
 
-export type Symbol = "o" | "x" | "";
+export enum Symbol {
+  "o" = "o",
+  "x" = "x",
+  "none" = "",
+}
 
 export interface MarkProps {
   symbol: Symbol;
