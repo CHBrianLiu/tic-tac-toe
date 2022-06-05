@@ -1,0 +1,9 @@
+.centralCol {
+    border-left: 3px black solid;
+    border-right: 3px black solid;
+}
+
+.centralRow {
+    border-top: 3px black solid;
+    border-bottom: 3px black solid;
+}
